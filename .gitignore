@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Pyrogram session files (grant account access — NEVER commit)
+*.session
+*.session-journal
+
+# Local data (stores user session strings + usage)
+data/
+
+# Environment / secrets
+.env
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
